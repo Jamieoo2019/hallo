@@ -34,12 +34,13 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local MainTab = Window:CreateTab("Hallo!", nil) -- Title, Image\
+local MainTab = Window:CreateTab("Home", nil) -- Title, Image\
+local MainTab = MainTab:CreateSection("idk")
 
 local Tab = Window:CreateTab("Scripts die funktionieren", nil)
 local Section = Tab:CreateSection("Scripts die ich mal benutzt habe")
 local Button = Tab:CreateButton({
-    Name = "Inf yield",
+    Name = "Inf yield manchmal 1 warnung oder ban weil es manchmal detected is",
     Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     end,
@@ -51,7 +52,27 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-dex-explorer-working-32529"))()
     end,
 })
+local Tab = Window:CreateTab("Grow a Garden")
+local Section = Tab:CreateSection("Moin")
 local Tab = Window:CreateTab("Credits")
 local Section = Tab:CreateSection("Script Made by Jamie")
 local Section = Tab:CreateSection("Ui Von Rayfield")
 local Section = Tab:CreateSection("NUR FÜR JONAH UND JACK!!")
+local Section = Tab:CreateSection("Jack ist ein sigma")
+local Section = Tab:CreateSection("Jonah ist ein sigma")
+local Tab = Window:CreateTab("Fragen")
+local Section = Tab:CreateSection("Soll ich sachen für Blox fruits adden?")
+local Button = Tab:CreateButton({
+    Name = "Ja",
+    Callback = function()
+    
+    end,
+})
+local Section = Tab:CreateSection("OKEEEEE")
+local Button = Tab:CreateButton({
+    Name = "Nein",
+    Callback = function()
+    
+    end,
+})
+local Section = Tab:CreateSection("Wrm?")
